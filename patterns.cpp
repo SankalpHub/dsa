@@ -196,7 +196,7 @@ void pattern18(int n){
 }
 void pattern19(int n){
     //upper half
-    for(int i = 5; i >= 1; i--){
+    for(int i = n; i >= 1; i--){
         //stars
         for(int j = 1; j <= i; j++){
             cout << "*";
@@ -212,7 +212,7 @@ void pattern19(int n){
         cout << endl;
     }
     //lower half
-    for(int i = 1; i <= 5; i++){
+    for(int i = 1; i <= n; i++){
         //stars
         for(int j = 1; j <= i; j++){
             cout << "*";
