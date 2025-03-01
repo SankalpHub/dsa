@@ -39,10 +39,21 @@ void pattern4(int n){
         cout << endl;
     }
 }
+void pattern5(int n){
+    for(int i = n; i >= 1; i--){
+        for(int k = 1; k <= n - i; k++){
+            cout << "  ";
+        }
+        for(int j = 1; j <= i; j++){
+            cout << "* ";
+        }
+        cout << endl;
+    }
+}
 
 int main(){
     int n;
     cin >> n;
 
-    pattern4(n);
+    pattern5(n);
 }
