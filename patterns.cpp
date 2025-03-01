@@ -158,9 +158,18 @@ void pattern15(int n){
         cout << endl;
     }
 }
+void pattern16(int n){
+    char ch = 'A';
+    for(int i = 1; i <= n; i++, ch++){
+        for(int j = 1; j <= i; j++){
+            cout << ch;
+        }
+        cout << endl;
+    }
+}
 
 int main() {
     int n;
     cin >> n;
-    pattern15(n);
+    pattern16(n);
 } 
