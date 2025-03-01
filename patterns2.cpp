@@ -72,10 +72,25 @@ void pattern7(int n){
         cout << endl;
     }
 }
+void pattern8(int n){
+    for(int i = 1; i < 2 * n; i++){
+        int val = i;
+        if(i > n) val = 2 * n - i;
+
+        for(int k = 1; k <= n - val; k++){
+            cout << " ";
+        }
+        for(int j = 1; j <= val; j++){
+            cout << "* ";
+        }
+        cout << endl;
+        
+    }
+}
 
 int main(){
     int n;
     cin >> n;
 
-    pattern7(n);
+    pattern8(n);
 }
