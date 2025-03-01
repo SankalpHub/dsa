@@ -183,10 +183,23 @@ void pattern15(int n){
         cout << endl;
     }
 }
+void pattern16(int n){
+    for(int i = 1; i <= n; i++){
+        for(int k = 1; k <= n - i; k++){
+            cout << " ";
+        }
+        int C = 1;
+        for(int j = 1; j <= i; j++){
+            cout << C << " ";
+            C = C * (i - j) / j;        //Formula to calculate Coeff
+        }
+        cout << endl;
+    }
+}
 
 int main(){
     int n;
     cin >> n;
 
-    pattern15(n);
+    pattern16(n);
 }
