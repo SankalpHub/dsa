@@ -102,9 +102,21 @@ void pattern10(int n){
         cout << endl;
     }
 }
+void pattern11(int n){
+    for(int i = 1; i <= n; i++){
+        int val = 1;
+        if(i % 2 == 0) val = 0;
+
+        for(int j = 1; j <= i; j++){
+            cout << val << " ";
+            val = 1 - val;                 //flips 1 to 0 and 0 to 1
+        }
+        cout << endl;
+    }
+}
 
 int main() {
     int n;
     cin >> n;
-    pattern10(n);
+    pattern11(n);
 } 
