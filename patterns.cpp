@@ -184,8 +184,18 @@ void pattern17(int n){
         cout << endl;
     }
 }
+void pattern18(int n){
+    char ch = 'E';
+    for(int i = 1; i <= n; i++,ch--){
+        char val = ch;
+        for(int j = 1; j <= i; j++,val++){
+            cout << val << " ";
+        }
+        cout << endl;
+    }
+}
 int main() {
     int n;
     cin >> n;
-    pattern17(n);
+    pattern18(n);
 } 
