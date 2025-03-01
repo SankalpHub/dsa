@@ -203,3 +203,5 @@ int main(){
 
     pattern16(n);
 }
+
+//Completed All :)
