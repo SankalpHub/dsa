@@ -157,10 +157,27 @@ void pattern13(int n){
         cout << endl;
     }
 }
+void pattern14(int n){
+    for(int i = 1; i < 2 * n; i++){
+        int val = i;
+        if(i > n) val = 2 * n - i;
+
+        for(int k = 1; k <= val - 1; k++){
+            cout << "  ";
+        }
+        for(int j = 1; j <= 2 * (n - val) + 1; j++){
+            if(val > 1 && val < n && j > 1 && j < 2 * (n - val) + 1)
+            cout << "  ";
+
+            else cout << "* ";
+        }
+        cout << endl;
+    }
+}
 
 int main(){
     int n;
     cin >> n;
 
-    pattern13(n);
+    pattern14(n);
 }
