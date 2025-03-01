@@ -61,10 +61,21 @@ void pattern6(int n){
         cout << endl;
     }
 }
+void pattern7(int n){
+    for(int i = 1; i <= n; i++){
+        for(int k = 1; k <= n - i; k++){
+            cout << " ";
+        }
+        for(int j = 1; j <= n; j++){
+            cout << "* ";
+        }
+        cout << endl;
+    }
+}
 
 int main(){
     int n;
     cin >> n;
 
-    pattern6(n);
+    pattern7(n);
 }
