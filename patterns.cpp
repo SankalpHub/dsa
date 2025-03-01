@@ -259,8 +259,19 @@ void pattern21(int n){
         cout << endl;
     }
 }
+void pattern22(int n){
+    for(int i = 0; i < 2 * n - 1; i++){
+        for(int j = 0; j < 2 * n - 1; j++){
+            int val = min(i,j);                             //min dist bw top and left
+            val = min(val, min(2*n - i - 2, 2*n - j - 2));  //min dist bw bottom and right
+            cout << 4 - val << " ";
+        }
+        cout << endl;
+    }
+}
+
 int main() {
     int n;
     cin >> n;
-    pattern21(n);
+    pattern22(n);
 } 
