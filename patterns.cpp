@@ -275,3 +275,5 @@ int main() {
     cin >> n;
     pattern22(n);
 } 
+
+//Completed All :)
