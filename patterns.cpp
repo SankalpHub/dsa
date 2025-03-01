@@ -114,9 +114,26 @@ void pattern11(int n){
         cout << endl;
     }
 }
+void pattern12(int n){
+    for(int i = 1; i <= n; i++){
+        //numbers
+        for(int j = 1; j <= i; j++){
+            cout << j;
+        }
+        //spaces
+        for(int k = 1; k <= 2 * (n - i); k++){
+            cout << " ";
+        }
+        //numbers
+        for(int j = i; j >= 1; j--){
+            cout << j;
+        }
+        cout << endl;
+    }
+}
 
 int main() {
     int n;
     cin >> n;
-    pattern11(n);
+    pattern12(n);
 } 
