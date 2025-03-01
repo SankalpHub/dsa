@@ -140,9 +140,18 @@ void pattern13(int n){
         cout << endl;
     }
 }
+void pattern14(int n){
+    for(int i = 1; i <= n; i++){
+        char ch = 'A';
+        for(int j = 1; j <= i; j++, ch++){
+            cout << ch;
+        }
+        cout << endl;
+    }
+}
 
 int main() {
     int n;
     cin >> n;
-    pattern13(n);
+    pattern14(n);
 } 
