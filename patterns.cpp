@@ -79,7 +79,7 @@ void pattern9(int n){
     for(int i = 1; i <= 2 * n; i++){
         int val = n - i;
         if(i > n) val = i - n - 1;
-        
+
         //spaces
         for(int k = 1; k <= val; k++){
             cout << " ";
@@ -91,9 +91,20 @@ void pattern9(int n){
         cout << endl;
     }
 }
+void pattern10(int n){
+    for(int i = 1; i < 2 * n ; i++){
+        int val = i;
+        if(i > n) val = 2 * n - i;
+
+        for(int j = 1; j <= val; j++){
+            cout << "*";
+        }
+        cout << endl;
+    }
+}
 
 int main() {
     int n;
     cin >> n;
-    pattern9(n);
+    pattern10(n);
 } 
