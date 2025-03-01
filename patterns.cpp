@@ -167,9 +167,25 @@ void pattern16(int n){
         cout << endl;
     }
 }
-
+void pattern17(int n){
+    for(int i = 1; i <= n; i++){
+        //spaces
+        for(int k = 1; k <= n - i; k++){
+            cout << " ";
+        }
+        //charactes
+        char ch = 'A';
+        for(int j = 1; j < i; j++,ch++){
+            cout << ch;
+        }
+        for(int j = 1; j <= i; j++, ch--){
+            cout << ch;
+        }
+        cout << endl;
+    }
+}
 int main() {
     int n;
     cin >> n;
-    pattern16(n);
+    pattern17(n);
 } 
