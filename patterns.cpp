@@ -248,8 +248,19 @@ void pattern20(int n){
         cout << endl;
     }
 }
+void pattern21(int n){
+    for(int i = 1; i <= n; i++){
+        for(int j = 1; j <= n; j++){
+            if(j > 1 && j < n && i > 1 && i < n)
+            cout << "  ";
+            
+            else cout << "* ";
+        }
+        cout << endl;
+    }
+}
 int main() {
     int n;
     cin >> n;
-    pattern20(n);
+    pattern21(n);
 } 
