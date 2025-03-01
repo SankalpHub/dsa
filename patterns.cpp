@@ -76,26 +76,16 @@ void pattern8(int n){
     }
 }
 void pattern9(int n){
-    //upper half
-    for(int i = 1; i <= n; i++){
-        //spaces                            
-        for(int k = 1; k <= n - i; k++){
-            cout << " ";
-        }                                           
-        //stars                                     
-        for(int j = 1; j <= 2 * i - 1; j++){
-            cout << "*";
-        }
-        cout << endl;
-    }
-    //lower half
-    for(int i = n; i >= 1; i--){
+    for(int i = 1; i <= 2 * n; i++){
+        int val = n - i;
+        if(i > n) val = i - n - 1;
+        
         //spaces
-        for(int k = 1; k <= n - i; k++){
+        for(int k = 1; k <= val; k++){
             cout << " ";
         }
         //stars
-        for(int j = 1; j <= 2 * i - 1; j++){
+        for(int j = 1; j <= 2 * (n - val) - 1; j++){
             cout << "*";
         }
         cout << endl;
