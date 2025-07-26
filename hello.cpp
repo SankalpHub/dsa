@@ -199,6 +199,6 @@ Node* insertBeforeValue(Node* head, int val, int element){
 int main(){
     vector<int> v = {1, 8, 9 , 3};
     Node* head = convert(v);
-    head = insertBeforeValue(head, 5, 5);
+    head = insertBeforeTail(head, 5);
     printLL(head);
 }
