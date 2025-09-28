@@ -8,7 +8,7 @@ Think of it as **Twitter + LinkedIn + Tinder + GitHub stats**… but made *just 
 Campus life is more than just lectures and assignments. It’s about events, friendships, coding battles, networking, and sometimes… finding your secret crush 👀.  
 CampusConnect brings **all of that** into one digital hood: a place where students and alumni can hang out, share, connect, and grow.  
 
-- ![Feed Screenshot](assets/feed.png)  
+- ![Feed Screenshot](assets/sankalp.png)  
 
 ## 🌟 Features  
 
