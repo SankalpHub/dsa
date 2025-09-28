@@ -17,7 +17,6 @@ CampusConnect brings **all of that** into one digital hood: a place where studen
 - Post your thoughts, memes, notes, or even random rants.
 - - ![Feed Screenshot](assets/feed.png)  
 
----
 
 ### 🎉 Explore (Discover Campus Life)  
 > Never miss a thing!  
@@ -26,7 +25,6 @@ CampusConnect brings **all of that** into one digital hood: a place where studen
 - Showcase **projects** you’ve built and see what others are working on.
 - - ![Feed Screenshot](assets/feed.png)  
 
----
 
 ### 💘 Cupid  
 > Love is in the air – but this time, it’s secret until it’s mutual! 
@@ -37,7 +35,6 @@ CampusConnect brings **all of that** into one digital hood: a place where studen
 - ![Feed Screenshot](assets/feed.png)
 - ![Feed Screenshot](assets/feed.png)  
 
----
 
 ### 💬 Messaging  
 > Stay connected with your campus circle. 
@@ -45,7 +42,7 @@ CampusConnect brings **all of that** into one digital hood: a place where studen
 - Only matched crushes or accepted connections can message.  
 - Simple, fast, and private.  
 - ![Feed Screenshot](assets/feed.png)  
----
+
 
 ### 🌐 Network 
 > Build your professional + personal circle.  
@@ -53,7 +50,6 @@ CampusConnect brings **all of that** into one digital hood: a place where studen
 - Expand your professional network.  
 - Perfect for mentorships, placements, and collaborations.  
 - ![Feed Screenshot](assets/feed.png)  
----
 
 ### 💻 Code-Connect (For Coders & Geeks)  
 > Battle for glory on the coding leaderboard 💻🔥 
@@ -61,7 +57,7 @@ CampusConnect brings **all of that** into one digital hood: a place where studen
 - Compare your **GitHub, Codeforces, and LeetCode stats**.  
 - Climb the leaderboard and get noticed.  
 - ![Feed Screenshot](assets/feed.png)  
----
+
 
 ### 🙋 Profile  
 > Your vibe, your showcase.  
@@ -69,7 +65,7 @@ CampusConnect brings **all of that** into one digital hood: a place where studen
 - Show off your **coding profiles & stats** (fetched via APIs).  
 - A mini resume meets personal showcase.  
 - ![Feed Screenshot](assets/feed.png)  
----
+
 
 ## 🪪 Create Account Flow  
 
