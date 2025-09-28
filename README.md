@@ -3,22 +3,19 @@
 Welcome to **CampusConnect** – your one-stop hub for everything happening on campus! 🎓✨  
 Think of it as **Twitter + LinkedIn + Tinder + GitHub stats**… but made *just for your college community*.  
 
----
-
 ## 🚀 What is CampusConnect?  
 
 Campus life is more than just lectures and assignments. It’s about events, friendships, coding battles, networking, and sometimes… finding your secret crush 👀.  
 CampusConnect brings **all of that** into one digital hood: a place where students and alumni can hang out, share, connect, and grow.  
 
----
+- ![Feed Screenshot](assets/feed.png)  
 
 ## 🌟 Features  
 
-### 📝 Feed (Your Campus Twitter)  
+### 📝 Feed
 > Keep the campus buzzing.  
-- Post your thoughts, memes, notes, or even random rants.  
-- Like, comment, and engage with your peers.  
-- Stay on top of trending topics around campus.  
+- Post your thoughts, memes, notes, or even random rants.
+- - ![Feed Screenshot](assets/feed.png)  
 
 ---
 
@@ -26,41 +23,44 @@ CampusConnect brings **all of that** into one digital hood: a place where studen
 > Never miss a thing!  
 - Browse all upcoming **events** and college fests.  
 - Join or discover **clubs and groups**.  
-- Showcase **projects** you’ve built and see what others are working on.  
+- Showcase **projects** you’ve built and see what others are working on.
+- - ![Feed Screenshot](assets/feed.png)  
 
 ---
 
-### 💘 Cupid (Campus Tinder but safer 😉)  
-> Shoot your shot without embarrassment.  
+### 💘 Cupid  
+> Love is in the air – but this time, it’s secret until it’s mutual! 
 - Submit your **crush’s name** anonymously.  
 - If they crush back → you both get matched 💖.  
 - Matched users unlock **real-time private chat**.  
-- Bonus: **Confession Board** 🤫 → Post anonymous confessions for everyone to see.  
+- Bonus: **Confession Board** 🤫 → Post anonymous confessions for everyone to see.
+- ![Feed Screenshot](assets/feed.png)
+- ![Feed Screenshot](assets/feed.png)  
 
 ---
 
 ### 💬 Messaging  
-> Slide into DMs (only if they say yes).  
+> Stay connected with your campus circle. 
 - **Real-time chat** with peers and alumni.  
 - Only matched crushes or accepted connections can message.  
 - Simple, fast, and private.  
-
+- ![Feed Screenshot](assets/feed.png)  
 ---
 
-### 🌐 Network (Campus LinkedIn)  
+### 🌐 Network 
 > Build your professional + personal circle.  
 - Connect with **alumni and peers**.  
 - Expand your professional network.  
 - Perfect for mentorships, placements, and collaborations.  
-
+- ![Feed Screenshot](assets/feed.png)  
 ---
 
 ### 💻 Code-Connect (For Coders & Geeks)  
-> Flex your coding muscle 💪.  
+> Battle for glory on the coding leaderboard 💻🔥 
 - See **top coders** across campus.  
 - Compare your **GitHub, Codeforces, and LeetCode stats**.  
 - Climb the leaderboard and get noticed.  
-
+- ![Feed Screenshot](assets/feed.png)  
 ---
 
 ### 🙋 Profile  
@@ -68,7 +68,7 @@ CampusConnect brings **all of that** into one digital hood: a place where studen
 - Customize with **avatar + banner**.  
 - Show off your **coding profiles & stats** (fetched via APIs).  
 - A mini resume meets personal showcase.  
-
+- ![Feed Screenshot](assets/feed.png)  
 ---
 
 ## 🪪 Create Account Flow  
@@ -87,13 +87,3 @@ CampusConnect brings **all of that** into one digital hood: a place where studen
 
 ---
 
-## 📸 Screenshots  
-
-> _(Place your screenshots here for demo)_  
-
-- ![Feed Screenshot](assets/feed.png)  
-- ![Explore Screenshot](assets/explore.png)  
-- ![Cupid Screenshot](assets/cupid.png)  
-- ![Profile Screenshot](assets/profile.png)  
-
----
